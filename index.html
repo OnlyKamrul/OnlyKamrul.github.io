@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+const path = window.location.pathname;
+
+window.location.replace(
+    path === "/" || path === ""
+        ? "https://github.com/kamrullab"
+        : "https://github.com/kamrullab" + path
+);
+</script>
+
+<noscript>
+<meta http-equiv="refresh" content="0; url=https://github.com/kamrullab">
+</noscript>
+
+</head>
+<body></body>
+</html>
